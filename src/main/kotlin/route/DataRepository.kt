@@ -54,8 +54,18 @@ object DataRepository {
                   isPopular = true
 
 
-                )
+                ),
+                Sneaker(
+                    id = 4,
+                    name = "HEHE",
+                    description = "HEHEHEHEH",
+                    price = 200.0,
+                    imageUrl = "mainsneakers",
+                    category = "Outdoor",
+                    isPopular = false
+
             )
+        )
         )
     }
 }
